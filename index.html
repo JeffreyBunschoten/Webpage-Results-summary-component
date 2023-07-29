@@ -5,43 +5,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Results summary</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <div class="content">
 
-  Your Result
-  76
-  of 100
-
-  Great
-  You scored higher than 65% of the people who have taken these tests.
+    <div class="result">
+      <div class="grayed">
+        <h1>Your result</h1>
+      </div>
+      
+      <div class="score">
+        <h1>76</h1>
+        <div class="grayed">of 100</div>
+      </div>
   
-  Summary
+      <h2>Great</h2>
+      <div class="grayed">You scored higher than 65% of the people who have taken these tests.</div>
+    </div>
 
-  Reaction
-  80 / 100
+    <div class="summary">
+      <h1>Summary</h1>
 
-  Memory
-  92 / 100
+      <div class="points">
+        <div class="reaction">
+          <h2>Reaction</h2>
+          <p>80 / 100</p>
+        </div>
 
-  Verbal
-  61 / 100
+        <div class="memory">
+          <h2>Memory</h2>
+          <p>92 / 100</p>
+        </div>
+        
+        <div class="verbal">
+          <h2>Verbal</h2>
+          <p>61 / 100</p>
+        </div>
 
-  Visual
-  72 / 100
-
-  Continue
+        <div class="visual">
+          <h2>Visual</h2>
+          <p>72 / 100</p>
+        </div>
+      </div>
+      
+      <button>Continue</button>
+    </div>
+  </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Jeff</a>.
   </div>
 </body>
 </html>

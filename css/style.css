@@ -1,0 +1,76 @@
+body {
+    font-size: small;
+    background-color: white;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20%;
+    /* border: 1px solid black; */
+}
+
+.result {
+    padding: 15%;
+    background-color: rgb(102, 20, 235);
+    color: white;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.result .grayed {
+    color: rgb(182, 182, 182);
+}
+
+.score {
+    padding: 25%;
+    background-color: rgb(88, 17, 202);
+    border-radius: 50%;
+}
+
+.summary {
+    padding: 15%;
+}
+
+.reaction, .memory, .verbal, .visual {
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3%;
+    
+}
+
+.reaction {
+    background-color: rgb(255, 172, 172);
+}
+
+.reaction h2 {
+    color: rgb(175, 21, 21);
+}
+
+.memory {
+    background-color: rgb(253, 253, 154);
+}
+
+.memory h2 {
+    color: rgb(117, 117, 30);
+}
+
+.verbal {
+    background-color: rgb(202, 247, 136);
+}
+
+.verbal h2 {
+    color: rgb(3, 116, 31);
+}
+
+.visual {
+    background-color: rgb(171, 171, 255);
+}
+
+.visual h2 {
+    color: rgb(5, 5, 204);
+}
